@@ -58,6 +58,7 @@
     <None Include="MathDotNet.fsx" />
     <Content Include="packages.config" />
     <None Include="Accord.fsx" />
+    <None Include="Accord2.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Accord">
