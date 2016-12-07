@@ -13,7 +13,7 @@ type HelloWindow() =
         lbl.Text <- msg
 
     member r.Run() =
-        Application.Run(frm)
+        frm.ShowDialog()
 
 let hello = new HelloWindow()
 hello.SayHello("Sindre")
