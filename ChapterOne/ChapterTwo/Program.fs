@@ -26,3 +26,15 @@ let withAitum2 newIteme2 tuple =
     | (origItem1, _) -> (origItem1, newIteme2)
 
 let future = withAitum2 1337 newest
+
+//different list initializations
+
+let lst1 = []
+
+let lst2 = 6::2::7::3::[]
+
+let lst3 = [6;2;7;3]
+
+let lst4 = [1..5]
+
+let lst5 = 0::lst4
